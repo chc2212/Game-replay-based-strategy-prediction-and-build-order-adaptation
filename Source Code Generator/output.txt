@@ -1,0 +1,146 @@
+if(ProtossObs <= ProtossReavor){
+	if(ProtossObs <= ProtossDarkTemplar){
+		if(ProtossSecondGas <= ProtossArchives){
+			if(ProtossCannon <= ProtossDarkTemplar){
+				if(ProtossFirstGas <= ProtossCitadel){
+					if(ProtossForge <= ProtossReavor){
+						if(ProtossRoboBay <= ProtossRoboSupport){
+							if(ProtossSecondGas <= ProtossObservory){
+								if(ProtossObs <= ProtossFirstExpansion){
+									if(ProtossRoboBay <= ProtossObservory){
+										if(ProtossFirstGas <= ProtossObs){
+											if(ProtossThirdGatway <= ProtossCitadel){
+												if(ProtossSecondGas <= ProtossObs){
+													if(ProtossCore <= ProtossPylon){
+														classValue=5;
+													}
+													else{
+														if(ProtossSecondGas <= ProtossZealot){
+															classValue=6;
+														}
+														else{
+															if(ProtossSecondGas <= ProtossFourthGatway){
+																if(ProtossFirstGas <= ProtossGoon){
+																	if(ProtossForge <= ProtossFirstGas){
+																		if(ProtossSecondGatway <= ProtossGateway){
+																			classValue=6;
+																		}
+																		else{
+																			if(ProtossSecondGatway <= ProtossSecondPylon){
+																				if(ProtossGateway <= ProtossZealot){
+																					if(ProtossGateway <= ProtossPylon){
+																						classValue=5;
+																					}
+																					else{
+																						classValue=6;
+																					}
+																				}
+																				else{
+																					classValue=5;
+																				}
+																			}
+																			else{
+																				classValue=5;
+																			}
+																		}
+																	}
+																	else{
+																		classValue=6;
+																	}
+																}
+																else{
+																	classValue=5;
+																}
+															}
+															else{
+																classValue=6;
+															}
+														}
+													}
+												}
+												else{
+													if(ProtossSecondPylon <= ProtossCannon){
+														classValue=5;
+													}
+													else{
+														classValue=2;
+													}
+												}
+											}
+											else{
+												classValue=6;
+											}
+										}
+										else{
+											if(ProtossSecondPylon <= ProtossGateway){
+												classValue=2;
+											}
+											else{
+												classValue=1;
+											}
+										}
+									}
+									else{
+										classValue=1;
+									}
+								}
+								else{
+									if(ProtossSecondGas <= ProtossDarkTemplar){
+										classValue=5;
+									}
+									else{
+										classValue=1;
+									}
+								}
+							}
+							else{
+								if(ProtossSecondPylon <= ProtossPylon){
+									classValue=1;
+								}
+								else{
+									if(ProtossFourthExpansion <= ProtossThirdExpansion){
+										if(ProtossRoboBay <= ProtossSecondPylon){
+											classValue=5;
+										}
+										else{
+											classValue=2;
+										}
+									}
+									else{
+										classValue=5;
+									}
+								}
+							}
+						}
+						else{
+							classValue=2;
+						}
+					}
+					else{
+						classValue=2;
+					}
+				}
+				else{
+					classValue=1;
+				}
+			}
+			else{
+				classValue=1;
+			}
+		}
+		else{
+			if(ProtossForge <= ProtossFourthGatway){
+				classValue=1;
+			}
+			else{
+				classValue=5;
+			}
+		}
+	}
+	else{
+		classValue=1;
+	}
+}
+else{
+	classValue=3;
+}

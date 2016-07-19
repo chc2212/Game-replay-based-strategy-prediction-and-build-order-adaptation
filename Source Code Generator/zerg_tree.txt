@@ -1,0 +1,18 @@
+ZergHydraDen_ZergSpire <= 0
+|   ZergCrackling_ZergHydraDen <= 0: 6 (535.0)
+|   ZergCrackling_ZergHydraDen > 0
+|   |   ZergLair_ZergThirdHatch <= 0
+|   |   |   ZergLurker_ZergThirdHatch <= 0
+|   |   |   |   ZergHydraRange_ZergLurker <= 0: 2 (40.0)
+|   |   |   |   ZergHydraRange_ZergLurker > 0
+|   |   |   |   |   ZergHydraDen_ZergLair <= 0: 2 (5.0)
+|   |   |   |   |   ZergHydraDen_ZergLair > 0: 5 (218.0)
+|   |   |   ZergLurker_ZergThirdHatch > 0
+|   |   |   |   ZergHydraDen_ZergLair <= 0: 2 (9.0)
+|   |   |   |   ZergHydraDen_ZergLair > 0: 3 (121.0)
+|   |   ZergLair_ZergThirdHatch > 0
+|   |   |   ZergThirdHatch_ZergHydraDen <= 0: 4 (746.0)
+|   |   |   ZergThirdHatch_ZergHydraDen > 0: 2 (16.0)
+ZergHydraDen_ZergSpire > 0
+|   ZergThirdHatch_ZergLair <= 0: 1 (489.0)
+|   ZergThirdHatch_ZergLair > 0: 0 (1005.0)

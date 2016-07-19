@@ -1,0 +1,56 @@
+@RELATION Starcraft_PvT_Terran
+
+@ATTRIBUTE TerranDepot INTEGER
+@ATTRIBUTE TerranGas INTEGER
+@ATTRIBUTE TerranSecondGas INTEGER
+@ATTRIBUTE TerranExpansion INTEGER
+@ATTRIBUTE TerranSecondExpansion INTEGER
+@ATTRIBUTE TerranThirdExpansion INTEGER
+@ATTRIBUTE TerranFourthExpansion INTEGER
+@ATTRIBUTE TerranBarracks INTEGER
+@ATTRIBUTE TerranSecondBarracks INTEGER
+@ATTRIBUTE TerranThirdBarracks INTEGER
+@ATTRIBUTE TerranMarine INTEGER
+@ATTRIBUTE TerranMedic INTEGER
+@ATTRIBUTE TerranFirebat INTEGER
+@ATTRIBUTE TerranBunker INTEGER
+@ATTRIBUTE TerranAcademy INTEGER
+@ATTRIBUTE TerranStem INTEGER
+@ATTRIBUTE TerranComsat INTEGER
+@ATTRIBUTE TerranEbay INTEGER
+@ATTRIBUTE TerranTurret INTEGER
+@ATTRIBUTE TerranInfantryAttack1 INTEGER
+@ATTRIBUTE TerranInfantryArmor1 INTEGER
+@ATTRIBUTE TerranInfantryAttack2 INTEGER
+@ATTRIBUTE TerranInfantryArmor2 INTEGER
+@ATTRIBUTE TerranFactory INTEGER
+@ATTRIBUTE TerranSecondFactory INTEGER
+@ATTRIBUTE TerranThirdFactory INTEGER
+@ATTRIBUTE TerranMachineShop INTEGER
+@ATTRIBUTE TerranSiege INTEGER
+@ATTRIBUTE TerranMines INTEGER
+@ATTRIBUTE TerranVulture INTEGER
+@ATTRIBUTE TerranTank INTEGER
+@ATTRIBUTE TerranGoliath INTEGER
+@ATTRIBUTE TerranArmory INTEGER
+@ATTRIBUTE TerranSecondArmory INTEGER
+@ATTRIBUTE TerranMetalAttack1 INTEGER
+@ATTRIBUTE TerranMetalArmor1 INTEGER
+@ATTRIBUTE TerranMetalAttack2 INTEGER
+@ATTRIBUTE TerranMetalArmor2 INTEGER
+@ATTRIBUTE TerranStarport INTEGER
+@ATTRIBUTE TerranControlTower INTEGER
+@ATTRIBUTE TerranWraith INTEGER
+@ATTRIBUTE TerranCloak INTEGER
+@ATTRIBUTE TerranDropship INTEGER
+@ATTRIBUTE TerranValkyrie INTEGER
+@ATTRIBUTE TerranScienceFacility INTEGER
+@ATTRIBUTE TerranVessel INTEGER
+@ATTRIBUTE TerranGhost INTEGER
+@ATTRIBUTE TerranNuke INTEGER
+@ATTRIBUTE TerranBattlecruiser INTEGER
+@ATTRIBUTE TerranAirAttack INTEGER
+@ATTRIBUTE TerranAirArmor INTEGER
+@ATTRIBUTE midBuild {Bio,TwoFactory,VultureHarass,SiegeExpand,Standard,FastDropship,Unknown}
+
+@DATA

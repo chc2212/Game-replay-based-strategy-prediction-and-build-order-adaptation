@@ -1,0 +1,20 @@
+TerranFactory_TerranSecondBarracks <= 0
+|   TerranMachineShop_TerranSecondFactory <= 0
+|   |   TerranTank_TerranVulture <= 0
+|   |   |   TerranTank_TerranStarport <= 0
+|   |   |   |   TerranSecondExpansion_TerranTank <= 0: 6 (218.0)
+|   |   |   |   TerranSecondExpansion_TerranTank > 0
+|   |   |   |   |   TerranVulture_TerranExpansion <= 0: 4 (236.0)
+|   |   |   |   |   TerranVulture_TerranExpansion > 0: 3 (311.0)
+|   |   |   TerranTank_TerranStarport > 0: 5 (165.0)
+|   |   TerranTank_TerranVulture > 0
+|   |   |   TerranVulture_TerranStarport <= 0: 2 (287.0)
+|   |   |   TerranVulture_TerranStarport > 0: 5 (60.0)
+|   TerranMachineShop_TerranSecondFactory > 0
+|   |   TerranVulture_TerranSecondFactory <= 0
+|   |   |   TerranVulture_TerranStarport <= 0: 2 (78.0)
+|   |   |   TerranVulture_TerranStarport > 0: 5 (9.0)
+|   |   TerranVulture_TerranSecondFactory > 0
+|   |   |   TerranStarport_TerranSecondFactory <= 0: 5 (27.0)
+|   |   |   TerranStarport_TerranSecondFactory > 0: 1 (430.0)
+TerranFactory_TerranSecondBarracks > 0: 0 (1096.0)

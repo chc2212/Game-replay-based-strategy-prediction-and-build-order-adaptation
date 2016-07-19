@@ -1,0 +1,46 @@
+if(ZergHydraDen <= ZergSpire){
+	if(ZergCrackling <= ZergHydraDen){
+		classValue=6;
+	}
+	else{
+		if(ZergLair <= ZergThirdHatch){
+			if(ZergLurker <= ZergThirdHatch){
+				if(ZergHydraRange <= ZergLurker){
+					classValue=2;
+				}
+				else{
+					if(ZergHydraDen <= ZergLair){
+						classValue=2;
+					}
+					else{
+						classValue=5;
+					}
+				}
+			}
+			else{
+				if(ZergHydraDen <= ZergLair){
+					classValue=2;
+				}
+				else{
+					classValue=3;
+				}
+			}
+		}
+		else{
+			if(ZergThirdHatch <= ZergHydraDen){
+				classValue=4;
+			}
+			else{
+				classValue=2;
+			}
+		}
+	}
+}
+else{
+	if(ZergThirdHatch <= ZergLair){
+		classValue=1;
+	}
+	else{
+		classValue=0;
+	}
+}

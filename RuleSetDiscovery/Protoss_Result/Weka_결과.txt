@@ -1,0 +1,82 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Starcraft
+Instances:    2705
+Attributes:   574
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ProtossFirstExpansion_ProtossStargate <= 0
+|   ProtossRoboBay_ProtossFirstExpansion <= 0
+|   |   ProtossCitadel_ProtossRoboBay <= 0
+|   |   |   ProtossLegs_ProtossArchives <= 0
+|   |   |   |   ProtossFourthExpansion_ProtossLegs <= 0: 6 (315.0)
+|   |   |   |   ProtossFourthExpansion_ProtossLegs > 0: 0 (44.0)
+|   |   |   ProtossLegs_ProtossArchives > 0: 1 (134.0)
+|   |   ProtossCitadel_ProtossRoboBay > 0
+|   |   |   ProtossRoboSupport_ProtossObservory <= 0
+|   |   |   |   ProtossSecondExpansion_ProtossRoboSupport <= 0: 6 (15.0)
+|   |   |   |   ProtossSecondExpansion_ProtossRoboSupport > 0: 3 (210.0)
+|   |   |   ProtossRoboSupport_ProtossObservory > 0: 2 (512.0)
+|   ProtossRoboBay_ProtossFirstExpansion > 0
+|   |   ProtossFirstExpansion_ProtossCitadel <= 0: 5 (934.0)
+|   |   ProtossFirstExpansion_ProtossCitadel > 0
+|   |   |   ProtossLegs_ProtossArchives <= 0: 0 (76.0/1.0)
+|   |   |   ProtossLegs_ProtossArchives > 0: 1 (224.0)
+ProtossFirstExpansion_ProtossStargate > 0
+|   ProtossCitadel_ProtossStargate <= 0
+|   |   ProtossLegs_ProtossArchives <= 0: 0 (11.0/1.0)
+|   |   ProtossLegs_ProtossArchives > 0: 1 (7.0)
+|   ProtossCitadel_ProtossStargate > 0
+|   |   ProtossRoboBay_ProtossStargate <= 0
+|   |   |   ProtossRoboSupport_ProtossFirstExpansion <= 0: 3 (7.0)
+|   |   |   ProtossRoboSupport_ProtossFirstExpansion > 0: 2 (2.0)
+|   |   ProtossRoboBay_ProtossStargate > 0: 4 (214.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+Time taken to build model: 2.17 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances        2703               99.9261 %
+Incorrectly Classified Instances         2                0.0739 %
+Kappa statistic                          0.9991
+Mean absolute error                      0.0004
+Root mean squared error                  0.0142
+Relative absolute error                  0.176  %
+Root relative squared error              4.1954 %
+Total Number of Instances             2705     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.001      0.985     1         0.992      1        0
+                 1         0          1         1         1          1        1
+                 1         0          1         1         1          1        2
+                 1         0          1         1         1          1        3
+                 1         0          1         1         1          1        4
+                 1         0          1         1         1          1        5
+                 0.994     0          1         0.994     0.997      1        6
+Weighted Avg.    0.999     0          0.999     0.999     0.999      1    
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   <-- classified as
+ 129   0   0   0   0   0   0 |   a = 0
+   0 365   0   0   0   0   0 |   b = 1
+   0   0 514   0   0   0   0 |   c = 2
+   0   0   0 217   0   0   0 |   d = 3
+   0   0   0   0 214   0   0 |   e = 4
+   0   0   0   0   0 934   0 |   f = 5
+   2   0   0   0   0   0 330 |   g = 6

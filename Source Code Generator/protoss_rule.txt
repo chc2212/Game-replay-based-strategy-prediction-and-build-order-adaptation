@@ -1,0 +1,66 @@
+if(ProtossFirstExpansion <= ProtossStargate){
+	if(ProtossRoboBay <= ProtossFirstExpansion){
+		if(ProtossCitadel <= ProtossRoboBay){
+			if(ProtossLegs <= ProtossArchives){
+				if(ProtossFourthExpansion <= ProtossLegs){
+					classValue=6;
+				}
+				else{
+					classValue=0;
+				}
+			}
+			else{
+				classValue=1;
+			}
+		}
+		else{
+			if(ProtossRoboSupport <= ProtossObservory){
+				if(ProtossSecondExpansion <= ProtossRoboSupport){
+					classValue=6;
+				}
+				else{
+					classValue=3;
+				}
+			}
+			else{
+				classValue=2;
+			}
+		}
+	}
+	else{
+		if(ProtossFirstExpansion <= ProtossCitadel){
+			classValue=5;
+		}
+		else{
+			if(ProtossLegs <= ProtossArchives){
+				classValue=0;
+			}
+			else{
+				classValue=1;
+			}
+		}
+	}
+}
+else{
+	if(ProtossCitadel <= ProtossStargate){
+		if(ProtossLegs <= ProtossArchives){
+			classValue=0;
+		}
+		else{
+			classValue=1;
+		}
+	}
+	else{
+		if(ProtossRoboBay <= ProtossStargate){
+			if(ProtossRoboSupport <= ProtossFirstExpansion){
+				classValue=3;
+			}
+			else{
+				classValue=2;
+			}
+		}
+		else{
+			classValue=4;
+		}
+	}
+}

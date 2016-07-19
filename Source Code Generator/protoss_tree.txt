@@ -1,0 +1,58 @@
+ProtossObs_ProtossReavor <= 0
+|   ProtossObs_ProtossDarkTemplar <= 0
+|   |   ProtossSecondGas_ProtossArchives <= 0
+|   |   |   ProtossCannon_ProtossDarkTemplar <= 0
+|   |   |   |   ProtossFirstGas_ProtossCitadel <= 0
+|   |   |   |   |   ProtossForge_ProtossReavor <= 0
+|   |   |   |   |   |   ProtossRoboBay_ProtossRoboSupport <= 0
+|   |   |   |   |   |   |   ProtossSecondGas_ProtossObservory <= 0
+|   |   |   |   |   |   |   |   ProtossObs_ProtossFirstExpansion <= 0
+|   |   |   |   |   |   |   |   |   ProtossRoboBay_ProtossObservory <= 0
+|   |   |   |   |   |   |   |   |   |   ProtossFirstGas_ProtossObs <= 0
+|   |   |   |   |   |   |   |   |   |   |   ProtossThirdGatway_ProtossCitadel <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossObs <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   ProtossCore_ProtossPylon <= 0: 5 (28.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   ProtossCore_ProtossPylon > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossZealot <= 0: 6 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossZealot > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossFourthGatway <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossFirstGas_ProtossGoon <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossForge_ProtossFirstGas <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGatway_ProtossGateway <= 0: 6 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGatway_ProtossGateway > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGatway_ProtossSecondPylon <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossGateway_ProtossZealot <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossGateway_ProtossPylon <= 0: 5 (9.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossGateway_ProtossPylon > 0: 6 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossGateway_ProtossZealot > 0: 5 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGatway_ProtossSecondPylon > 0: 5 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossForge_ProtossFirstGas > 0: 6 (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossFirstGas_ProtossGoon > 0: 5 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossFourthGatway > 0: 6 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossObs > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondPylon_ProtossCannon <= 0: 5 (12.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   ProtossSecondPylon_ProtossCannon > 0: 2 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   ProtossThirdGatway_ProtossCitadel > 0: 6 (6.0)
+|   |   |   |   |   |   |   |   |   |   ProtossFirstGas_ProtossObs > 0
+|   |   |   |   |   |   |   |   |   |   |   ProtossSecondPylon_ProtossGateway <= 0: 2 (7.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   ProtossSecondPylon_ProtossGateway > 0: 1 (5.0)
+|   |   |   |   |   |   |   |   |   ProtossRoboBay_ProtossObservory > 0: 1 (2.0/1.0)
+|   |   |   |   |   |   |   |   ProtossObs_ProtossFirstExpansion > 0
+|   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossDarkTemplar <= 0: 5 (48.0/4.0)
+|   |   |   |   |   |   |   |   |   ProtossSecondGas_ProtossDarkTemplar > 0: 1 (2.0/1.0)
+|   |   |   |   |   |   |   ProtossSecondGas_ProtossObservory > 0
+|   |   |   |   |   |   |   |   ProtossSecondPylon_ProtossPylon <= 0: 1 (2.0/1.0)
+|   |   |   |   |   |   |   |   ProtossSecondPylon_ProtossPylon > 0
+|   |   |   |   |   |   |   |   |   ProtossFourthExpansion_ProtossThirdExpansion <= 0
+|   |   |   |   |   |   |   |   |   |   ProtossRoboBay_ProtossSecondPylon <= 0: 5 (2.0)
+|   |   |   |   |   |   |   |   |   |   ProtossRoboBay_ProtossSecondPylon > 0: 2 (10.0)
+|   |   |   |   |   |   |   |   |   ProtossFourthExpansion_ProtossThirdExpansion > 0: 5 (2.0)
+|   |   |   |   |   |   ProtossRoboBay_ProtossRoboSupport > 0: 2 (5.0)
+|   |   |   |   |   ProtossForge_ProtossReavor > 0: 2 (18.0/2.0)
+|   |   |   |   ProtossFirstGas_ProtossCitadel > 0: 1 (4.0/1.0)
+|   |   |   ProtossCannon_ProtossDarkTemplar > 0: 1 (8.0/2.0)
+|   |   ProtossSecondGas_ProtossArchives > 0
+|   |   |   ProtossForge_ProtossFourthGatway <= 0: 1 (17.0/1.0)
+|   |   |   ProtossForge_ProtossFourthGatway > 0: 5 (2.0)
+|   ProtossObs_ProtossDarkTemplar > 0: 1 (49.0)
+ProtossObs_ProtossReavor > 0: 3 (7.0/2.0)

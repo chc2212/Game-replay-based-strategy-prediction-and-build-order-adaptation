@@ -1,0 +1,51 @@
+if(TerranFactory <= TerranSecondBarracks){
+	if(TerranMachineShop <= TerranSecondFactory){
+		if(TerranTank <= TerranVulture){
+			if(TerranTank <= TerranStarport){
+				if(TerranSecondExpansion <= TerranTank){
+					classValue=6;
+				}
+				else{
+					if(TerranVulture <= TerranExpansion){
+						classValue=4;
+					}
+					else{
+						classValue=3;
+					}
+				}
+			}
+			else{
+				classValue=5;
+			}
+		}
+		else{
+			if(TerranVulture <= TerranStarport){
+				classValue=2;
+			}
+			else{
+				classValue=5;
+			}
+		}
+	}
+	else{
+		if(TerranVulture <= TerranSecondFactory){
+			if(TerranVulture <= TerranStarport){
+				classValue=2;
+			}
+			else{
+				classValue=5;
+			}
+		}
+		else{
+			if(TerranStarport <= TerranSecondFactory){
+				classValue=5;
+			}
+			else{
+				classValue=1;
+			}
+		}
+	}
+}
+else{
+	classValue=0;
+}

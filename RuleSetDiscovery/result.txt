@@ -1,0 +1,16 @@
+CLASS_INDEX = 0
+ProtossAirArmor2 > ProtossLegs
+CLASS_INDEX = 1
+ProtossAirArmor2 > ProtossArchives
+CLASS_INDEX = 2
+ProtossAirArmor2 > ProtossObservory
+CLASS_INDEX = 3
+ProtossAirArmor2 > ProtossRoboSupport
+CLASS_INDEX = 4
+ProtossAirArmor2 > ProtossFirstExpansion
+ProtossAirArmor2 > ProtossLegs
+ProtossAirArmor2 > ProtossArchives
+ProtossAirArmor2 > ProtossRoboSupport
+ProtossAirArmor2 > ProtossObservory
+CLASS_INDEX = 5
+ProtossAirArmor2 > ProtossFirstExpansion
