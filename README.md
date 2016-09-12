@@ -19,7 +19,7 @@ This is a research project to develop AI agent for RTS games that can predict th
  
 
 #Media
-* Presentation [H.-C. Cho et al., 2013]
+* [Presentation] (http://www.slideshare.net/secret/aeqH5JUMks64b1) [H.-C. Cho et al., 2013]
  
 
 [<img src="https://github.com/chc2212/Game-replay-based-strategy-prediction-and-build-order-adaptation/blob/master/CIG2013_Presentstion.jpg" width="450">](http://www.slideshare.net/secret/aeqH5JUMks64b1)
