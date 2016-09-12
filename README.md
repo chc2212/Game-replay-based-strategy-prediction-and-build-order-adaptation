@@ -7,9 +7,16 @@ This is a research project to develop AI agent for RTS games that can predict th
 
 #Result
 * Expected win (0~1) from the prediction accuracy (Rotation Forest + FBDT) and the winning ratio of each strategy (P vs. P, YGOSU.com data) [H.-C. Cho et al., 2013]
- 
 
 <img src="https://github.com/chc2212/Game-replay-based-strategy-prediction-and-build-order-adaptation/blob/master/result.png" width="350">
+
+#Conclusion
+* The new framework for build order prediction and adaptation 
+* Strategy prediction  with realistic data and introduction of feature expansion.
+* Strategy adaptation by combining the statistical winning ratio and prediction accuracy 
+* We need to improve accuracy of prediction with fog-of-war and apply this research to AI bots.
+
+ 
 
 #Media
 * Poster [H.-C. Cho and K.-J. Kim, 2013]
