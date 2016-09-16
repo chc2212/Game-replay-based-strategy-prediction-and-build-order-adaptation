@@ -1,5 +1,5 @@
 # Game-replay-based-strategy-prediction-and-build-order-adaptation
-This is a research project to develop AI agent for RTS games that can predict the strategy of opponent players and make decision on the change of their strategy by analyzing user replay data. We proposed a feature-expanded decision tree to enhance the ability to predict the strategy of opponent players. It Showed that proposed method can enhance winning probability more than 10% through simulation of the game.
+This is a research project to develop AI agent for RTS games that can predict the strategy of opponent players and make decision on the change of their strategy by analyzing user replay data. We proposed a feature-expanded decision tree to enhance the ability to predict the strategy of opponent players. It Showed that proposed method can enhance winning probability more than 10% through simulation of the game. 
 
 # Overview of Method
 <img src="https://github.com/chc2212/Game-replay-based-strategy-prediction-and-build-order-adaptation/blob/master/pic1.png" width="400" align ="left">
